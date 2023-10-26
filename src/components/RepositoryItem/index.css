@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  width: 250px;
+  height: 350px;
+  border-width: 0px;
+  align-items: center;
+  margin: 5px;
+}
+
+.card-head {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2px;
+}
+.card-para {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: normal;
+  margin: 2px;
+}
+
+.logo {
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+}
+
+.avatar {
+  width: 100px;
+  height: 150px;
+  margin: 3px;
+}
+.con {
+  display: flex;
+  flex-direction: row;
+}
